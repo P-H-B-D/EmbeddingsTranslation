@@ -2,7 +2,7 @@
 
 ## Overview
 
-Translatooor is an innovative methodology designed to alleviate platform lock-in associated with hosted APIs, particularly those responsible for generating word embeddings. This model enables the transformation of one embeddings model's output into the representation space of another embeddings model. 
+Translatooor is a novel methodology designed to alleviate platform lock-in associated with hosted APIs, particularly those responsible for generating word embeddings. This model enables the transformation of one embeddings model's output into the representation space of another embeddings model. 
 
 This unique approach to creating a mapping between different embeddings models fosters versatility and adaptability. Specifically, it provides a framework to map between open and closed-source models or between two closed-source models. Consequently, it prevents any single vendor from monopolizing embeddings output within an opaque, black-box model.
 
