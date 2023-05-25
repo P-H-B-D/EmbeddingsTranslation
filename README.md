@@ -2,6 +2,10 @@
 
 ## Overview
 
+1) loadparquet.py: loads parquet (see: https://huggingface.co/datasets/nomic-ai/cohere-wiki-sbert ), generates wikidownload.csv
+2) OSEmbeddingsV2.ipynb: takes wikidownload.csv, adds the mpnet embeddings, saves as a new csv: CompositeEmbeddings.csv
+3) NN.ipynb: Neural Net training, prediction, and eval.
+
 Translatooor is a novel methodology designed to alleviate platform lock-in associated with hosted APIs, particularly those responsible for generating word embeddings. This model enables the transformation of one embeddings model's output into the representation space of another embeddings model. 
 
 This unique approach to creating a mapping between different embeddings models fosters versatility and adaptability. Specifically, it provides a framework to map between open and closed-source models or between two closed-source models. Consequently, it prevents any single vendor from monopolizing embeddings output within an opaque, black-box model.
