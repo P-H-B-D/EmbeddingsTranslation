@@ -2,3 +2,9 @@ openaiapikey.txt
 wikidownload.parquet
 CompositeEmbeddings.csv
 CompositeEmbeddings.csv
+CompositeEmbeddings.csv
+*.csv
+*.parquet
+*.zip
+*.csv
+*.csv
