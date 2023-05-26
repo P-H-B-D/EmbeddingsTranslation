@@ -13,7 +13,6 @@ class TranslatedModel:
             batch = sentences[i:i+batch_size]
             curr_batch_size = len(batch)
             from_embedding = self.model_from.encode(batch)
-            print(len(from_embedding))
             from_embedding_array = np.array(from_embedding).reshape(curr_batch_size, self.input_shape)
             to_embedding = self.model_to.predict(from_embedding_array)
             embeddings.extend(to_embedding)
