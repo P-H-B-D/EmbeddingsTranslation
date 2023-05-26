@@ -9,3 +9,6 @@ CompositeEmbeddings.csv
 *.csv
 *.csv
 openaikey.txt
+.ipynb_checkpoints
+__pycache__
+error_logs.txt
