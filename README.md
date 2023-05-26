@@ -1,4 +1,4 @@
-# VectorBridge: A Robust Technique for Efficient Cross-Model Embeddings Translation
+# VectorBridge: A Robust Technique for Cross-Model Embeddings Translation
 
 #### See (Arxiv Link Here) for more information
 
