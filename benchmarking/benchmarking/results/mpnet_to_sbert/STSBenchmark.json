@@ -1,0 +1,35 @@
+{
+  "dataset_revision": "b0fddb56ed78048fa8b90373c8a3cfc37b684831",
+  "mteb_dataset_name": "STSBenchmark",
+  "mteb_version": "1.0.2",
+  "test": {
+    "cos_sim": {
+      "pearson": 0.7434003583946719,
+      "spearman": 0.7390831824162093
+    },
+    "euclidean": {
+      "pearson": 0.71102894552113,
+      "spearman": 0.7291036026116231
+    },
+    "evaluation_time": 2.34,
+    "manhattan": {
+      "pearson": 0.711071544795981,
+      "spearman": 0.7285317736009832
+    }
+  },
+  "validation": {
+    "cos_sim": {
+      "pearson": 0.8002056488378199,
+      "spearman": 0.8074698198709855
+    },
+    "euclidean": {
+      "pearson": 0.732710260566579,
+      "spearman": 0.7513741602121936
+    },
+    "evaluation_time": 2.64,
+    "manhattan": {
+      "pearson": 0.7327677952615141,
+      "spearman": 0.7515754610626784
+    }
+  }
+}

@@ -11,19 +11,19 @@ model_names = {
 from_model_name = "mpnet"
 from_model = SentenceTransformer(model_names[from_model_name])
 
-to_model_name = "openai"
+to_model_name = "sbert"
 # to_model = SentenceTransformer(model_names[to_model_name])
 
-trained_model = load_model("../models/bigOA.h5", compile=False)
+trained_model = load_model("../models/bigsmallnew.h5", compile=False)
 translation_model = TranslatedModel(from_model, trained_model, 768)
 
 model_name = f"{from_model_name}_to_{to_model_name}"
 
-evaluation = MTEB(tasks=["SciFact"])
+evaluation = MTEB()
 evaluation.run(translation_model, output_folder=f"benchmarking/results/{model_name}")
 
-# evaluation = MTEB(tasks=["EmotionClassification"])
-# evaluation.run(to_model, output_folder=f"benchmarking/results/{to_model_name}")
+# # evaluation = MTEB(tasks=["EmotionClassification"])
+# # evaluation.run(to_model, output_folder=f"benchmarking/results/{to_model_name}")
 
-evaluation = MTEB(tasks=["SciFact"])
-evaluation.run(from_model, output_folder=f"benchmarking/results/{from_model_name}")
+# evaluation = MTEB(tasks=["SciFact"])
+# evaluation.run(from_model, output_folder=f"benchmarking/results/{from_model_name}")
