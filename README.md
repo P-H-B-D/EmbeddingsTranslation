@@ -1,6 +1,6 @@
 # VectorBridge: A Robust Technique for Cross-Model Embeddings Translation
 
-#### See (Arxiv Link Here) for more information
+#### Peter Bowman-Davis and Roshan Palakkal
 
 VectorBridge is aimed at creating an interoperability layer between different sentence embeddings models, thereby promoting vendor neutrality and enabling users to swap models freely based on their specific needs and preferences, without the need for re-embedding a sample corpus. _VectorBridge thereby enables the querying vector databases/stores encoded in closed-source models, using only open-source tools._
 
